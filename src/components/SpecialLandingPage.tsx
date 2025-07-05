@@ -32,10 +32,10 @@ const SpecialLandingPage = ({ userName }: SpecialLandingPageProps) => {
                 <Heart className="w-8 h-8 text-warm-pink animate-pulse" />
               </div>
               <h1 className="text-3xl md:text-4xl font-bold bg-gradient-emotional bg-clip-text text-transparent">
-                ¡Hola {userName}! 💕
+                ¡Feliz Cumpleaños {userName}! 🎂💕
               </h1>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Este es un regalo muy especial hecho con todo el amor del mundo, solo para ti
+                Hoy es tu día especial y quería sorprenderte con algo hecho con todo el amor
               </p>
             </div>
 
@@ -64,13 +64,14 @@ const SpecialLandingPage = ({ userName }: SpecialLandingPageProps) => {
             <div className="text-center bg-gradient-warmth p-8 rounded-xl shadow-gentle">
               <div className="space-y-6">
                 <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
-                  Para Alguien Muy Especial 💖
+                  Un Día Muy Especial Para Ti 🎂
                 </h2>
                 <p className="text-white/90 text-lg leading-relaxed max-w-3xl mx-auto">
-                  Cada momento compartido contigo ha sido un regalo. Tu presencia ilumina los días 
-                  más difíciles y hace que los buenos momentos sean extraordinarios. Esta pequeña 
-                  colección de recuerdos es solo una muestra del amor, gratitud y conexión que 
-                  siento hacia ti. Eres una persona increíble que merece todo lo bueno del mundo.
+                  Hoy celebramos no solo el día que llegaste al mundo, sino también todo lo que has 
+                  significado en nuestras vidas. Cada risa compartida, cada momento juntos, cada abrazo 
+                  ha sido un regalo. En tu cumpleaños quiero que sepas lo especial que eres y cuánto 
+                  alegras nuestros corazones. ¡Que este nuevo año de vida esté lleno de felicidad, 
+                  amor y momentos inolvidables!
                 </p>
                 <div className="flex justify-center space-x-2 mt-4">
                   <Heart className="w-6 h-6 text-white animate-pulse" />
@@ -101,27 +102,24 @@ const SpecialLandingPage = ({ userName }: SpecialLandingPageProps) => {
 
             {/* Special Dedication */}
             <div className="bg-tender-lavender/30 p-6 rounded-xl text-center space-y-4 border border-warm-pink/20">
-              <div className="space-y-2">
-                <p className="text-lg font-medium text-foreground">
-                  Con todo mi amor y cariño para...
-                </p>
-                <div className="space-y-1">
-                  <p className="text-xl font-bold bg-gradient-emotional bg-clip-text text-transparent">
-                    Papá 👨‍👧
+              <div className="space-y-4">
+                <div className="flex justify-center space-x-3">
+                  <Heart className="w-6 h-6 text-warm-pink" />
+                  <Star className="w-6 h-6 text-soft-gold" />
+                  <Heart className="w-6 h-6 text-warm-pink" />
+                </div>
+                <div className="space-y-2">
+                  <p className="text-2xl font-bold bg-gradient-emotional bg-clip-text text-transparent">
+                    Con cariño
                   </p>
-                  <p className="text-lg font-semibold text-muted-foreground">
-                    y nuestra querida Juliana 🐕💕
+                  <p className="text-xl font-semibold text-foreground">
+                    Samuel 💝
                   </p>
                 </div>
+                <p className="text-sm text-muted-foreground italic">
+                  ¡Que tengas el mejor cumpleaños! ✨
+                </p>
               </div>
-              <div className="flex justify-center space-x-3">
-                <Heart className="w-5 h-5 text-warm-pink" />
-                <Star className="w-5 h-5 text-soft-gold" />
-                <Heart className="w-5 h-5 text-warm-pink" />
-              </div>
-              <p className="text-sm text-muted-foreground italic">
-                Porque ustedes son mi mundo y mi mayor tesoro ✨
-              </p>
             </div>
           </CardContent>
         </Card>

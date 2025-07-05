@@ -29,10 +29,10 @@ const LoginForm = ({ onLogin }: LoginFormProps) => {
             <Heart className="w-12 h-12 text-warm-pink animate-pulse" />
           </div>
           <CardTitle className="text-2xl font-bold bg-gradient-emotional bg-clip-text text-transparent">
-            Un Regalo Especial Te Espera
+            ¡Feliz Cumpleaños! 🎂
           </CardTitle>
           <CardDescription className="text-muted-foreground">
-            Ingresa tus datos para acceder a algo muy especial creado solo para ti
+            Una tarjeta digital muy especial creada especialmente para tu día
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
